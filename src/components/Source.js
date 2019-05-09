@@ -1,4 +1,7 @@
 import React from 'react';
+import styles from './Source.scss';
+
+const { source, source_button, selected, source_icon, source_name } = styles;
 
 const Source = ({
   name,
@@ -18,13 +21,15 @@ const Source = ({
     borderRadius: 6,
   };
   return (
-    <li className="source">
+    <li className={source}>
       <button
-        className={`source_button ${id === currentSource ? 'selected' : ''}`}
+        className={
+          id === currentSource ? `${source_button} ${selected}` : source_button
+        }
         onClick={() => setCurrentSource(id)}
       >
-        <div style={sidebar_icon} className="source_icon" />
-        <span className="source_name">{name}</span>
+        <div style={sidebar_icon} className={source_icon} />
+        <span className={source_name}>{name}</span>
       </button>
     </li>
   );

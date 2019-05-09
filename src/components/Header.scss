@@ -1,0 +1,27 @@
+@import '../scss/variables';
+
+.header {
+  height: 6.4rem;
+  grid-area: 😀;
+  background: $black;
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  &_logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    color: white;
+    font-weight: 600;
+    font-size: 1.6em;
+  }
+  &_button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  &_emoji {
+    font-size: 2em;
+  }
+}

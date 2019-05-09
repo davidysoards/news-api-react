@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Story from './Story';
+import styles from './Main.scss';
 
 const Main = ({ apiKey, currentSource, sidebarIsHidden }) => {
   const [articles, setArticles] = useState([]);
@@ -27,10 +28,12 @@ const Main = ({ apiKey, currentSource, sidebarIsHidden }) => {
     });
   }, [currentSource, apiKey, setHeadline]);
 
+  const { main, hide, main_headline, main_stories } = styles;
+
   return (
-    <main className={`main ${sidebarIsHidden ? 'hide' : ''}`}>
-      <h1 className="main_headline">{headline}</h1>
-      <div className="main_stories">
+    <main className={sidebarIsHidden ? `${main} ${hide}` : main}>
+      <h1 className={main_headline}>{headline}</h1>
+      <div className={main_stories}>
         {articles.map(article => {
           const { title, description, urlToImage, publishedAt, url } = article;
           return (

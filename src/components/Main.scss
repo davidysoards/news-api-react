@@ -1,0 +1,29 @@
+@import '../scss/variables';
+
+.main {
+  max-height: calc(100vh - 6.4rem); // subtract height of Header & grid-gap
+  position: relative;
+  overflow-y: auto;
+  z-index: 1;
+
+  @include bp(med) {
+    padding: 1rem 2rem;
+    transition: all 0.7s;
+    margin-left: 280px;
+    &.hide {
+      margin-left: 5%;
+      margin-right: 5%;
+      transition-delay: 0.2s;
+    }
+  }
+  &_headline {
+    margin-left: 1.6rem;
+  }
+  &_stories {
+    @include bp(med) {
+      display: grid;
+      grid-gap: 1rem;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}

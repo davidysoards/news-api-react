@@ -9,7 +9,8 @@
     "normalize.css": "^8.0.1",
     "postcss-modules": "^1.4.1",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "sass": "^1.20.1"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
@@ -27,8 +28,7 @@
     "eslint-plugin-react-hooks": "^1.0.2",
     "gh-pages": "^2.0.1",
     "parcel-bundler": "^1.12.3",
-    "prettier": "^1.16.1",
-    "sass": "^1.19.0"
+    "prettier": "^1.16.1"
   },
   "scripts": {
     "cclear": "rm -rf .cache/ dist/",

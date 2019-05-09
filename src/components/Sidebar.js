@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import icons from '../img/icons/*.png';
 import Source from './Source';
+import styles from './Sidebar.scss';
 
 const SideBar = ({
   apiKey,
@@ -31,10 +32,10 @@ const SideBar = ({
     });
   }, [apiKey]);
 
-  // console.log(icons);
+  const { sidebar, hide } = styles;
 
   return (
-    <aside className={`sidebar ${sidebarIsHidden ? 'hide' : ''}`}>
+    <aside className={sidebarIsHidden ? `${sidebar} ${hide}` : sidebar}>
       <ul>
         {sourcesList.map(source => {
           const { id, name, description } = source;

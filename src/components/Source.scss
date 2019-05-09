@@ -1,0 +1,26 @@
+@import '../scss/variables';
+
+.source {
+  &_button {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    padding: 0.8rem;
+    background: $medGray;
+    border: none;
+    font-size: 1.4rem;
+    color: white;
+    font-weight: 800;
+    &:hover {
+      background: darken($medGray, 10%);
+    }
+    &.selected {
+      background: lighten($medGray, 10%);
+    }
+  }
+  &_name {
+    margin-left: 0.8rem;
+  }
+}
