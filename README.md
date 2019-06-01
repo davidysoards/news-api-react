@@ -4,7 +4,7 @@ This project is deployed via GitHub pages at [News API React](https://davidysoar
 
 ## Sass & CSS Modules
 
-I used CSS Modules along with SCSS to scope the styles for each component in the UI to only that component. Globally there I'm also using Normalize.css along with some custom resets and styles.
+I used CSS Modules along with SCSS to scope the styles for each component in the UI to only that component. Globally I'm also using Normalize.css along with some custom resets and styles.
 
 ## Parcel
 
