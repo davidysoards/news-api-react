@@ -20,7 +20,7 @@ module.exports={};
 },{}],"HLEJ":[function(require,module,exports) {
 module.exports="/news-api-react/react-logo.2dcf2e9c.svg";
 },{}],"pV6f":[function(require,module,exports) {
-module.exports={header:"_header_182d8",header_logo:"_header_logo_182d8",header_button:"_header_button_182d8",header_emoji:"_header_emoji_182d8"};
+module.exports={header:"_header_5bcb0",header_logo:"_header_logo_5bcb0",header_button:"_header_button_5bcb0",header_emoji:"_header_emoji_5bcb0"};
 },{}],"RzfG":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e=r(require("react")),a=r(require("../img/react-logo.svg")),t=r(require("./Header.scss"));function r(e){return e&&e.__esModule?e:{default:e}}var l=function(r){var l=r.sidebarIsHidden,u=r.hideShowSidebar,d=t.default.header,n=t.default.header_button,s=t.default.header_emoji,c=t.default.header_logo;return e.default.createElement("header",{className:d},e.default.createElement("button",{className:n,onClick:function(){return u(!l)}},e.default.createElement("span",{role:"img","aria-label":"hamburger",className:s},"🍔")),e.default.createElement("div",{className:c},e.default.createElement("span",null,"React"),e.default.createElement("img",{src:a.default,alt:"logo",height:"36",width:"36"}),e.default.createElement("span",null,"News")))},u=l;exports.default=u;
 },{"react":"1n8/","../img/react-logo.svg":"HLEJ","./Header.scss":"pV6f"}],"ED/T":[function(require,module,exports) {
@@ -79,16 +79,16 @@ var e=require("process"),t=require("./utils"),r=require("./helpers/normalizeHead
 "use strict";var e=require("./utils"),r=require("./helpers/bind"),n=require("./core/Axios"),u=require("./core/mergeConfig"),t=require("./defaults");function i(u){var t=new n(u),i=r(n.prototype.request,t);return e.extend(i,n.prototype,t),e.extend(i,t),i}var l=i(t);l.Axios=n,l.create=function(e){return i(u(l.defaults,e))},l.Cancel=require("./cancel/Cancel"),l.CancelToken=require("./cancel/CancelToken"),l.isCancel=require("./cancel/isCancel"),l.all=function(e){return Promise.all(e)},l.spread=require("./helpers/spread"),module.exports=l,module.exports.default=l;
 },{"./utils":"S1cf","./helpers/bind":"ED/T","./core/Axios":"OvAf","./core/mergeConfig":"2OHv","./defaults":"BXyq","./cancel/Cancel":"mI+K","./cancel/CancelToken":"tsWd","./cancel/isCancel":"V3+0","./helpers/spread":"X8jb"}],"dZBD":[function(require,module,exports) {
 module.exports=require("./lib/axios");
-},{"./lib/axios":"nUiQ"}],"WbKz":[function(require,module,exports) {
-module.exports="/news-api-react/abc-news-au.7b507b47.png";
+},{"./lib/axios":"nUiQ"}],"9Zhb":[function(require,module,exports) {
+module.exports="/news-api-react/aftenposten.2880bd6c.png";
 },{}],"lvJ3":[function(require,module,exports) {
 module.exports="/news-api-react/abc-news.d85481f8.png";
-},{}],"9Zhb":[function(require,module,exports) {
-module.exports="/news-api-react/aftenposten.2880bd6c.png";
-},{}],"zWTF":[function(require,module,exports) {
-module.exports="/news-api-react/al-jazeera-english.2ef37913.png";
+},{}],"WbKz":[function(require,module,exports) {
+module.exports="/news-api-react/abc-news-au.7b507b47.png";
 },{}],"qX6f":[function(require,module,exports) {
 module.exports="/news-api-react/ansa.c68e7b93.png";
+},{}],"zWTF":[function(require,module,exports) {
+module.exports="/news-api-react/al-jazeera-english.2ef37913.png";
 },{}],"khLQ":[function(require,module,exports) {
 module.exports="/news-api-react/argaam.aa934c11.png";
 },{}],"VTvP":[function(require,module,exports) {
@@ -109,22 +109,22 @@ module.exports="/news-api-react/bbc-sport.a5079835.png";
 module.exports="/news-api-react/bild.e77927c0.png";
 },{}],"qsyj":[function(require,module,exports) {
 module.exports="/news-api-react/blasting-news-br.c5c94417.png";
-},{}],"arsj":[function(require,module,exports) {
-module.exports="/news-api-react/bleacher-report.c04efeea.png";
 },{}],"uF/z":[function(require,module,exports) {
 module.exports="/news-api-react/bloomberg.0b23befb.png";
+},{}],"arsj":[function(require,module,exports) {
+module.exports="/news-api-react/bleacher-report.c04efeea.png";
 },{}],"EPfi":[function(require,module,exports) {
 module.exports="/news-api-react/breitbart-news.e77927c0.png";
 },{}],"q7qF":[function(require,module,exports) {
 module.exports="/news-api-react/business-insider-uk.7cc6af28.png";
 },{}],"p1Kn":[function(require,module,exports) {
 module.exports="/news-api-react/business-insider.7cc6af28.png";
-},{}],"u8Tk":[function(require,module,exports) {
-module.exports="/news-api-react/buzzfeed.5e9ac47c.png";
 },{}],"5ATc":[function(require,module,exports) {
 module.exports="/news-api-react/cbc-news.e4d71ccf.png";
 },{}],"4bCj":[function(require,module,exports) {
 module.exports="/news-api-react/cbs-news.b882e7f1.png";
+},{}],"u8Tk":[function(require,module,exports) {
+module.exports="/news-api-react/buzzfeed.5e9ac47c.png";
 },{}],"pgAf":[function(require,module,exports) {
 module.exports="/news-api-react/cnbc.b8d085f1.png";
 },{}],"3Kll":[function(require,module,exports) {
@@ -137,16 +137,16 @@ module.exports="/news-api-react/crypto-coins-news.02b05832.png";
 module.exports="/news-api-react/daily-mail.58518a74.png";
 },{}],"nZhH":[function(require,module,exports) {
 module.exports="/news-api-react/der-tagesspiegel.63a00bc6.png";
-},{}],"ro8Z":[function(require,module,exports) {
-module.exports="/news-api-react/el-mundo.b054d139.png";
 },{}],"VfNn":[function(require,module,exports) {
 module.exports="/news-api-react/die-zeit.8d7770dd.png";
+},{}],"ro8Z":[function(require,module,exports) {
+module.exports="/news-api-react/el-mundo.b054d139.png";
 },{}],"UTHT":[function(require,module,exports) {
 module.exports="/news-api-react/engadget.f164f9f3.png";
-},{}],"7Pq0":[function(require,module,exports) {
-module.exports="/news-api-react/espn-cric-info.ed8f9562.png";
 },{}],"/Ri3":[function(require,module,exports) {
 module.exports="/news-api-react/entertainment-weekly.7f8f4309.png";
+},{}],"7Pq0":[function(require,module,exports) {
+module.exports="/news-api-react/espn-cric-info.ed8f9562.png";
 },{}],"3yo4":[function(require,module,exports) {
 module.exports="/news-api-react/espn.74273d84.png";
 },{}],"/wxT":[function(require,module,exports) {
@@ -163,34 +163,34 @@ module.exports="/news-api-react/fortune.491180fe.png";
 module.exports="/news-api-react/four-four-two.458810f6.png";
 },{}],"zhz1":[function(require,module,exports) {
 module.exports="/news-api-react/fox-news.98a1f2c1.png";
-},{}],"ifM6":[function(require,module,exports) {
-module.exports="/news-api-react/fox-sports.e840b597.png";
+},{}],"N/BL":[function(require,module,exports) {
+module.exports="/news-api-react/globo.d26035ec.png";
 },{}],"xvf8":[function(require,module,exports) {
 module.exports="/news-api-react/google-news-ar.fbf95be5.png";
 },{}],"4jU9":[function(require,module,exports) {
 module.exports="/news-api-react/google-news-au.fbf95be5.png";
-},{}],"N/BL":[function(require,module,exports) {
-module.exports="/news-api-react/globo.d26035ec.png";
 },{}],"PMZZ":[function(require,module,exports) {
 module.exports="/news-api-react/google-news-br.fbf95be5.png";
 },{}],"McFM":[function(require,module,exports) {
 module.exports="/news-api-react/google-news-ca.fbf95be5.png";
 },{}],"gMfN":[function(require,module,exports) {
 module.exports="/news-api-react/google-news-fr.fbf95be5.png";
-},{}],"TbaG":[function(require,module,exports) {
-module.exports="/news-api-react/google-news-in.fbf95be5.png";
+},{}],"ifM6":[function(require,module,exports) {
+module.exports="/news-api-react/fox-sports.e840b597.png";
 },{}],"NniF":[function(require,module,exports) {
 module.exports="/news-api-react/google-news-it.fbf95be5.png";
-},{}],"/4Xk":[function(require,module,exports) {
-module.exports="/news-api-react/google-news-ru.fbf95be5.png";
 },{}],"JSNT":[function(require,module,exports) {
 module.exports="/news-api-react/google-news-sa.fbf95be5.png";
+},{}],"/4Xk":[function(require,module,exports) {
+module.exports="/news-api-react/google-news-ru.fbf95be5.png";
 },{}],"SvzS":[function(require,module,exports) {
 module.exports="/news-api-react/google-news-uk.fbf95be5.png";
-},{}],"KIAR":[function(require,module,exports) {
-module.exports="/news-api-react/google-news.fbf95be5.png";
+},{}],"TbaG":[function(require,module,exports) {
+module.exports="/news-api-react/google-news-in.fbf95be5.png";
 },{}],"68Av":[function(require,module,exports) {
 module.exports="/news-api-react/goteborgs-posten.e45235f0.png";
+},{}],"KIAR":[function(require,module,exports) {
+module.exports="/news-api-react/google-news.fbf95be5.png";
 },{}],"7nph":[function(require,module,exports) {
 module.exports="/news-api-react/gruenderszene.5f6a4433.png";
 },{}],"qyOM":[function(require,module,exports) {
@@ -201,14 +201,14 @@ module.exports="/news-api-react/handelsblatt.34a827cc.png";
 module.exports="/news-api-react/ign.9868af7c.png";
 },{}],"UC7I":[function(require,module,exports) {
 module.exports="/news-api-react/il-sole-24-ore.74436b42.png";
-},{}],"qxBP":[function(require,module,exports) {
-module.exports="/news-api-react/independent.cbc7514f.png";
-},{}],"2xV8":[function(require,module,exports) {
-module.exports="/news-api-react/info-money.789bbe19.png";
-},{}],"dqZ9":[function(require,module,exports) {
-module.exports="/news-api-react/infobae.5c6f3748.png";
 },{}],"g6+1":[function(require,module,exports) {
 module.exports="/news-api-react/la-gaceta.a90965c7.png";
+},{}],"dqZ9":[function(require,module,exports) {
+module.exports="/news-api-react/infobae.5c6f3748.png";
+},{}],"2xV8":[function(require,module,exports) {
+module.exports="/news-api-react/info-money.789bbe19.png";
+},{}],"qxBP":[function(require,module,exports) {
+module.exports="/news-api-react/independent.cbc7514f.png";
 },{}],"Qg6L":[function(require,module,exports) {
 module.exports="/news-api-react/la-nacion.22344a62.png";
 },{}],"MV5s":[function(require,module,exports) {
@@ -227,48 +227,46 @@ module.exports="/news-api-react/liberation.9976f246.png";
 module.exports="/news-api-react/marca.8c42493d.png";
 },{}],"ziMf":[function(require,module,exports) {
 module.exports="/news-api-react/mashable.c69ea1f3.png";
-},{}],"+d0z":[function(require,module,exports) {
-module.exports="/news-api-react/medical-news-today.ff4eadb7.png";
 },{}],"aH1X":[function(require,module,exports) {
 module.exports="/news-api-react/metro.1c184049.png";
-},{}],"BYAh":[function(require,module,exports) {
-module.exports="/news-api-react/msnbc.a5d1ec48.png";
+},{}],"+d0z":[function(require,module,exports) {
+module.exports="/news-api-react/medical-news-today.ff4eadb7.png";
 },{}],"ko+V":[function(require,module,exports) {
 module.exports="/news-api-react/mirror.bb0bd8f7.png";
-},{}],"4ROD":[function(require,module,exports) {
-module.exports="/news-api-react/mtv-news-uk.a14b0601.png";
+},{}],"BYAh":[function(require,module,exports) {
+module.exports="/news-api-react/msnbc.a5d1ec48.png";
 },{}],"1Ev3":[function(require,module,exports) {
 module.exports="/news-api-react/mtv-news.15787c84.png";
-},{}],"RPTT":[function(require,module,exports) {
-module.exports="/news-api-react/national-geographic.e7406de8.png";
 },{}],"90oj":[function(require,module,exports) {
 module.exports="/news-api-react/national-review.8a50d12e.png";
+},{}],"RPTT":[function(require,module,exports) {
+module.exports="/news-api-react/national-geographic.e7406de8.png";
 },{}],"+6I9":[function(require,module,exports) {
 module.exports="/news-api-react/nbc-news.bef364ff.png";
-},{}],"Ad9t":[function(require,module,exports) {
-module.exports="/news-api-react/new-scientist.25c67cbe.png";
 },{}],"PXo0":[function(require,module,exports) {
 module.exports="/news-api-react/new-york-magazine.231106ea.png";
-},{}],"eD9r":[function(require,module,exports) {
-module.exports="/news-api-react/news-com-au.f7671320.png";
+},{}],"4ROD":[function(require,module,exports) {
+module.exports="/news-api-react/mtv-news-uk.a14b0601.png";
 },{}],"kkT/":[function(require,module,exports) {
 module.exports="/news-api-react/news24.9c6e9aca.png";
+},{}],"eD9r":[function(require,module,exports) {
+module.exports="/news-api-react/news-com-au.f7671320.png";
 },{}],"1mjx":[function(require,module,exports) {
 module.exports="/news-api-react/newsweek.2a0569b6.png";
 },{}],"9yuI":[function(require,module,exports) {
 module.exports="/news-api-react/next-big-future.8aca6d82.png";
-},{}],"jcRq":[function(require,module,exports) {
-module.exports="/news-api-react/nfl-news.935ecf99.png";
 },{}],"+zEX":[function(require,module,exports) {
 module.exports="/news-api-react/nhl-news.f6b322db.png";
 },{}],"h0it":[function(require,module,exports) {
 module.exports="/news-api-react/nrk.9f493c0a.png";
+},{}],"Ad9t":[function(require,module,exports) {
+module.exports="/news-api-react/new-scientist.25c67cbe.png";
+},{}],"SIy/":[function(require,module,exports) {
+module.exports="/news-api-react/polygon.7caa9c1a.png";
 },{}],"w4S+":[function(require,module,exports) {
 module.exports="/news-api-react/politico.07c9e924.png";
 },{}],"8Otu":[function(require,module,exports) {
 module.exports="/news-api-react/rbc.90d0e711.png";
-},{}],"SIy/":[function(require,module,exports) {
-module.exports="/news-api-react/polygon.7caa9c1a.png";
 },{}],"DF/Q":[function(require,module,exports) {
 module.exports="/news-api-react/recode.00a160d4.png";
 },{}],"yajM":[function(require,module,exports) {
@@ -277,52 +275,54 @@ module.exports="/news-api-react/reddit-r-all.2287f251.png";
 module.exports="/news-api-react/reuters.dc3881b9.png";
 },{}],"l3mp":[function(require,module,exports) {
 module.exports="/news-api-react/rt.a3e27090.png";
-},{}],"E5Nh":[function(require,module,exports) {
-module.exports="/news-api-react/rte.7a3d33fc.png";
 },{}],"v0FX":[function(require,module,exports) {
 module.exports="/news-api-react/rtl-nieuws.01dba933.png";
+},{}],"E5Nh":[function(require,module,exports) {
+module.exports="/news-api-react/rte.7a3d33fc.png";
 },{}],"B9Pf":[function(require,module,exports) {
 module.exports="/news-api-react/sabq.61b37c78.png";
 },{}],"IU8c":[function(require,module,exports) {
 module.exports="/news-api-react/sevenska-dagbladet.f2dcb446.png";
 },{}],"hYXb":[function(require,module,exports) {
 module.exports="/news-api-react/spiegel-online.1c62b0c6.png";
-},{}],"5+YH":[function(require,module,exports) {
-module.exports="/news-api-react/t3n.45da5313.png";
 },{}],"zEcd":[function(require,module,exports) {
 module.exports="/news-api-react/talksport.8a84830a.png";
-},{}],"8lun":[function(require,module,exports) {
-module.exports="/news-api-react/techcrunch-cn.eb1cf878.png";
 },{}],"kwMW":[function(require,module,exports) {
 module.exports="/news-api-react/techcrunch.eb1cf878.png";
+},{}],"8lun":[function(require,module,exports) {
+module.exports="/news-api-react/techcrunch-cn.eb1cf878.png";
 },{}],"1Igl":[function(require,module,exports) {
 module.exports="/news-api-react/techradar.068d46a7.png";
-},{}],"otgC":[function(require,module,exports) {
-module.exports="/news-api-react/the-american-conservative.79fb3723.png";
-},{}],"t1mB":[function(require,module,exports) {
-module.exports="/news-api-react/the-economist.3026a896.png";
 },{}],"dCyH":[function(require,module,exports) {
 module.exports="/news-api-react/the-globe-and-mail.46c26174.png";
-},{}],"0NRu":[function(require,module,exports) {
-module.exports="/news-api-react/the-guardian-au.279fd959.png";
+},{}],"otgC":[function(require,module,exports) {
+module.exports="/news-api-react/the-american-conservative.79fb3723.png";
 },{}],"TsB+":[function(require,module,exports) {
 module.exports="/news-api-react/the-guardian-uk.279fd959.png";
 },{}],"Z2c7":[function(require,module,exports) {
 module.exports="/news-api-react/the-hill.ea75641f.png";
-},{}],"ilVi":[function(require,module,exports) {
-module.exports="/news-api-react/the-hindu.8c155052.png";
-},{}],"GKZ0":[function(require,module,exports) {
-module.exports="/news-api-react/the-huffington-post.94c7ec1a.png";
+},{}],"t1mB":[function(require,module,exports) {
+module.exports="/news-api-react/the-economist.3026a896.png";
 },{}],"djpZ":[function(require,module,exports) {
 module.exports="/news-api-react/the-irish-times.9a5e3638.png";
-},{}],"fLRh":[function(require,module,exports) {
-module.exports="/news-api-react/the-jerusalem-post.1b1631ef.png";
+},{}],"GKZ0":[function(require,module,exports) {
+module.exports="/news-api-react/the-huffington-post.94c7ec1a.png";
+},{}],"ilVi":[function(require,module,exports) {
+module.exports="/news-api-react/the-hindu.8c155052.png";
 },{}],"tQW1":[function(require,module,exports) {
 module.exports="/news-api-react/the-lad-bible.917937b8.png";
 },{}],"iz5e":[function(require,module,exports) {
 module.exports="/news-api-react/the-new-york-times.581a5468.png";
+},{}],"jcRq":[function(require,module,exports) {
+module.exports="/news-api-react/nfl-news.935ecf99.png";
+},{}],"5+YH":[function(require,module,exports) {
+module.exports="/news-api-react/t3n.45da5313.png";
+},{}],"0NRu":[function(require,module,exports) {
+module.exports="/news-api-react/the-guardian-au.279fd959.png";
 },{}],"rYNI":[function(require,module,exports) {
 module.exports="/news-api-react/the-next-web.fd8be8c9.png";
+},{}],"fLRh":[function(require,module,exports) {
+module.exports="/news-api-react/the-jerusalem-post.1b1631ef.png";
 },{}],"o8tw":[function(require,module,exports) {
 module.exports="/news-api-react/the-sport-bible.2ce2b7c5.png";
 },{}],"bF9Q":[function(require,module,exports) {
@@ -333,10 +333,10 @@ module.exports="/news-api-react/the-times-of-india.9a5e3638.png";
 module.exports="/news-api-react/the-verge.e048b1d5.png";
 },{}],"RXce":[function(require,module,exports) {
 module.exports="/news-api-react/the-wall-street-journal.a8f5620b.png";
-},{}],"6p8O":[function(require,module,exports) {
-module.exports="/news-api-react/the-washington-post.0a847c5f.png";
 },{}],"J+fh":[function(require,module,exports) {
 module.exports="/news-api-react/the-washington-times.dd724efa.png";
+},{}],"6p8O":[function(require,module,exports) {
+module.exports="/news-api-react/the-washington-post.0a847c5f.png";
 },{}],"qQqx":[function(require,module,exports) {
 module.exports="/news-api-react/time.acc05679.png";
 },{}],"bgyp":[function(require,module,exports) {
@@ -354,26 +354,26 @@ module.exports="/news-api-react/xinhua-net.5ec4b661.png";
 },{}],"PZoc":[function(require,module,exports) {
 module.exports="/news-api-react/ynet.fde12e1c.png";
 },{}],"1HVf":[function(require,module,exports) {
-module.exports={"abc-news-au":require("./abc-news-au.png"),"abc-news":require("./abc-news.png"),aftenposten:require("./aftenposten.png"),"al-jazeera-english":require("./al-jazeera-english.png"),ansa:require("./ansa.png"),argaam:require("./argaam.png"),"ars-technica":require("./ars-technica.png"),"ary-news":require("./ary-news.png"),"associated-press":require("./associated-press.png"),"australian-financial-review":require("./australian-financial-review.png"),axios:require("./axios.png"),"bbc-news":require("./bbc-news.png"),"bbc-sport":require("./bbc-sport.png"),bild:require("./bild.png"),"blasting-news-br":require("./blasting-news-br.png"),"bleacher-report":require("./bleacher-report.png"),bloomberg:require("./bloomberg.png"),"breitbart-news":require("./breitbart-news.png"),"business-insider-uk":require("./business-insider-uk.png"),"business-insider":require("./business-insider.png"),buzzfeed:require("./buzzfeed.png"),"cbc-news":require("./cbc-news.png"),"cbs-news":require("./cbs-news.png"),cnbc:require("./cnbc.png"),"cnn-es":require("./cnn-es.png"),cnn:require("./cnn.png"),"crypto-coins-news":require("./crypto-coins-news.png"),"daily-mail":require("./daily-mail.png"),"der-tagesspiegel":require("./der-tagesspiegel.png"),"el-mundo":require("./el-mundo.png"),"die-zeit":require("./die-zeit.png"),engadget:require("./engadget.png"),"espn-cric-info":require("./espn-cric-info.png"),"entertainment-weekly":require("./entertainment-weekly.png"),espn:require("./espn.png"),"financial-post":require("./financial-post.png"),"financial-times":require("./financial-times.png"),focus:require("./focus.png"),"football-italia":require("./football-italia.png"),fortune:require("./fortune.png"),"four-four-two":require("./four-four-two.png"),"fox-news":require("./fox-news.png"),"fox-sports":require("./fox-sports.png"),"google-news-ar":require("./google-news-ar.png"),"google-news-au":require("./google-news-au.png"),globo:require("./globo.png"),"google-news-br":require("./google-news-br.png"),"google-news-ca":require("./google-news-ca.png"),"google-news-fr":require("./google-news-fr.png"),"google-news-in":require("./google-news-in.png"),"google-news-it":require("./google-news-it.png"),"google-news-ru":require("./google-news-ru.png"),"google-news-sa":require("./google-news-sa.png"),"google-news-uk":require("./google-news-uk.png"),"google-news":require("./google-news.png"),"goteborgs-posten":require("./goteborgs-posten.png"),gruenderszene:require("./gruenderszene.png"),"hacker-news":require("./hacker-news.png"),handelsblatt:require("./handelsblatt.png"),ign:require("./ign.png"),"il-sole-24-ore":require("./il-sole-24-ore.png"),independent:require("./independent.png"),"info-money":require("./info-money.png"),infobae:require("./infobae.png"),"la-gaceta":require("./la-gaceta.png"),"la-nacion":require("./la-nacion.png"),"la-repubblica":require("./la-repubblica.png"),"le-monde":require("./le-monde.png"),lenta:require("./lenta.png"),lequipe:require("./lequipe.png"),"les-echos":require("./les-echos.png"),liberation:require("./liberation.png"),marca:require("./marca.png"),mashable:require("./mashable.png"),"medical-news-today":require("./medical-news-today.png"),metro:require("./metro.png"),msnbc:require("./msnbc.png"),mirror:require("./mirror.png"),"mtv-news-uk":require("./mtv-news-uk.png"),"mtv-news":require("./mtv-news.png"),"national-geographic":require("./national-geographic.png"),"national-review":require("./national-review.png"),"nbc-news":require("./nbc-news.png"),"new-scientist":require("./new-scientist.png"),"new-york-magazine":require("./new-york-magazine.png"),"news-com-au":require("./news-com-au.png"),news24:require("./news24.png"),newsweek:require("./newsweek.png"),"next-big-future":require("./next-big-future.png"),"nfl-news":require("./nfl-news.png"),"nhl-news":require("./nhl-news.png"),nrk:require("./nrk.png"),politico:require("./politico.png"),rbc:require("./rbc.png"),polygon:require("./polygon.png"),recode:require("./recode.png"),"reddit-r-all":require("./reddit-r-all.png"),reuters:require("./reuters.png"),rt:require("./rt.png"),rte:require("./rte.png"),"rtl-nieuws":require("./rtl-nieuws.png"),sabq:require("./sabq.png"),"sevenska-dagbladet":require("./sevenska-dagbladet.png"),"spiegel-online":require("./spiegel-online.png"),t3n:require("./t3n.png"),talksport:require("./talksport.png"),"techcrunch-cn":require("./techcrunch-cn.png"),techcrunch:require("./techcrunch.png"),techradar:require("./techradar.png"),"the-american-conservative":require("./the-american-conservative.png"),"the-economist":require("./the-economist.png"),"the-globe-and-mail":require("./the-globe-and-mail.png"),"the-guardian-au":require("./the-guardian-au.png"),"the-guardian-uk":require("./the-guardian-uk.png"),"the-hill":require("./the-hill.png"),"the-hindu":require("./the-hindu.png"),"the-huffington-post":require("./the-huffington-post.png"),"the-irish-times":require("./the-irish-times.png"),"the-jerusalem-post":require("./the-jerusalem-post.png"),"the-lad-bible":require("./the-lad-bible.png"),"the-new-york-times":require("./the-new-york-times.png"),"the-next-web":require("./the-next-web.png"),"the-sport-bible":require("./the-sport-bible.png"),"the-telegraph":require("./the-telegraph.png"),"the-times-of-india":require("./the-times-of-india.png"),"the-verge":require("./the-verge.png"),"the-wall-street-journal":require("./the-wall-street-journal.png"),"the-washington-post":require("./the-washington-post.png"),"the-washington-times":require("./the-washington-times.png"),time:require("./time.png"),"usa-today":require("./usa-today.png"),"vice-news":require("./vice-news.png"),"wired-de":require("./wired-de.png"),wired:require("./wired.png"),"wirtschafts-woche":require("./wirtschafts-woche.png"),"xinhua-net":require("./xinhua-net.png"),ynet:require("./ynet.png")};
-},{"./abc-news-au.png":"WbKz","./abc-news.png":"lvJ3","./aftenposten.png":"9Zhb","./al-jazeera-english.png":"zWTF","./ansa.png":"qX6f","./argaam.png":"khLQ","./ars-technica.png":"VTvP","./ary-news.png":"koTL","./associated-press.png":"wGaF","./australian-financial-review.png":"71j2","./axios.png":"ruLr","./bbc-news.png":"2ja5","./bbc-sport.png":"EA/r","./bild.png":"F9+S","./blasting-news-br.png":"qsyj","./bleacher-report.png":"arsj","./bloomberg.png":"uF/z","./breitbart-news.png":"EPfi","./business-insider-uk.png":"q7qF","./business-insider.png":"p1Kn","./buzzfeed.png":"u8Tk","./cbc-news.png":"5ATc","./cbs-news.png":"4bCj","./cnbc.png":"pgAf","./cnn-es.png":"3Kll","./cnn.png":"b6M/","./crypto-coins-news.png":"ODQ2","./daily-mail.png":"EYpz","./der-tagesspiegel.png":"nZhH","./el-mundo.png":"ro8Z","./die-zeit.png":"VfNn","./engadget.png":"UTHT","./espn-cric-info.png":"7Pq0","./entertainment-weekly.png":"/Ri3","./espn.png":"3yo4","./financial-post.png":"/wxT","./financial-times.png":"3Rb6","./focus.png":"UYAS","./football-italia.png":"bpSh","./fortune.png":"bDUN","./four-four-two.png":"xtc0","./fox-news.png":"zhz1","./fox-sports.png":"ifM6","./google-news-ar.png":"xvf8","./google-news-au.png":"4jU9","./globo.png":"N/BL","./google-news-br.png":"PMZZ","./google-news-ca.png":"McFM","./google-news-fr.png":"gMfN","./google-news-in.png":"TbaG","./google-news-it.png":"NniF","./google-news-ru.png":"/4Xk","./google-news-sa.png":"JSNT","./google-news-uk.png":"SvzS","./google-news.png":"KIAR","./goteborgs-posten.png":"68Av","./gruenderszene.png":"7nph","./hacker-news.png":"qyOM","./handelsblatt.png":"FGt7","./ign.png":"oIf4","./il-sole-24-ore.png":"UC7I","./independent.png":"qxBP","./info-money.png":"2xV8","./infobae.png":"dqZ9","./la-gaceta.png":"g6+1","./la-nacion.png":"Qg6L","./la-repubblica.png":"MV5s","./le-monde.png":"Y+Da","./lenta.png":"Yazm","./lequipe.png":"Vj7e","./les-echos.png":"rMH1","./liberation.png":"bCzD","./marca.png":"3+p1","./mashable.png":"ziMf","./medical-news-today.png":"+d0z","./metro.png":"aH1X","./msnbc.png":"BYAh","./mirror.png":"ko+V","./mtv-news-uk.png":"4ROD","./mtv-news.png":"1Ev3","./national-geographic.png":"RPTT","./national-review.png":"90oj","./nbc-news.png":"+6I9","./new-scientist.png":"Ad9t","./new-york-magazine.png":"PXo0","./news-com-au.png":"eD9r","./news24.png":"kkT/","./newsweek.png":"1mjx","./next-big-future.png":"9yuI","./nfl-news.png":"jcRq","./nhl-news.png":"+zEX","./nrk.png":"h0it","./politico.png":"w4S+","./rbc.png":"8Otu","./polygon.png":"SIy/","./recode.png":"DF/Q","./reddit-r-all.png":"yajM","./reuters.png":"peLh","./rt.png":"l3mp","./rte.png":"E5Nh","./rtl-nieuws.png":"v0FX","./sabq.png":"B9Pf","./sevenska-dagbladet.png":"IU8c","./spiegel-online.png":"hYXb","./t3n.png":"5+YH","./talksport.png":"zEcd","./techcrunch-cn.png":"8lun","./techcrunch.png":"kwMW","./techradar.png":"1Igl","./the-american-conservative.png":"otgC","./the-economist.png":"t1mB","./the-globe-and-mail.png":"dCyH","./the-guardian-au.png":"0NRu","./the-guardian-uk.png":"TsB+","./the-hill.png":"Z2c7","./the-hindu.png":"ilVi","./the-huffington-post.png":"GKZ0","./the-irish-times.png":"djpZ","./the-jerusalem-post.png":"fLRh","./the-lad-bible.png":"tQW1","./the-new-york-times.png":"iz5e","./the-next-web.png":"rYNI","./the-sport-bible.png":"o8tw","./the-telegraph.png":"bF9Q","./the-times-of-india.png":"753U","./the-verge.png":"i02i","./the-wall-street-journal.png":"RXce","./the-washington-post.png":"6p8O","./the-washington-times.png":"J+fh","./time.png":"qQqx","./usa-today.png":"bgyp","./vice-news.png":"0DJe","./wired-de.png":"P+zZ","./wired.png":"ksNb","./wirtschafts-woche.png":"JOWY","./xinhua-net.png":"BrlD","./ynet.png":"PZoc"}],"uh/L":[function(require,module,exports) {
-module.exports={source_button:"_source_button_47ed7",selected:"_selected_47ed7",source_name:"_source_name_47ed7"};
+module.exports={aftenposten:require("./aftenposten.png"),"abc-news":require("./abc-news.png"),"abc-news-au":require("./abc-news-au.png"),ansa:require("./ansa.png"),"al-jazeera-english":require("./al-jazeera-english.png"),argaam:require("./argaam.png"),"ars-technica":require("./ars-technica.png"),"ary-news":require("./ary-news.png"),"associated-press":require("./associated-press.png"),"australian-financial-review":require("./australian-financial-review.png"),axios:require("./axios.png"),"bbc-news":require("./bbc-news.png"),"bbc-sport":require("./bbc-sport.png"),bild:require("./bild.png"),"blasting-news-br":require("./blasting-news-br.png"),bloomberg:require("./bloomberg.png"),"bleacher-report":require("./bleacher-report.png"),"breitbart-news":require("./breitbart-news.png"),"business-insider-uk":require("./business-insider-uk.png"),"business-insider":require("./business-insider.png"),"cbc-news":require("./cbc-news.png"),"cbs-news":require("./cbs-news.png"),buzzfeed:require("./buzzfeed.png"),cnbc:require("./cnbc.png"),"cnn-es":require("./cnn-es.png"),cnn:require("./cnn.png"),"crypto-coins-news":require("./crypto-coins-news.png"),"daily-mail":require("./daily-mail.png"),"der-tagesspiegel":require("./der-tagesspiegel.png"),"die-zeit":require("./die-zeit.png"),"el-mundo":require("./el-mundo.png"),engadget:require("./engadget.png"),"entertainment-weekly":require("./entertainment-weekly.png"),"espn-cric-info":require("./espn-cric-info.png"),espn:require("./espn.png"),"financial-post":require("./financial-post.png"),"financial-times":require("./financial-times.png"),focus:require("./focus.png"),"football-italia":require("./football-italia.png"),fortune:require("./fortune.png"),"four-four-two":require("./four-four-two.png"),"fox-news":require("./fox-news.png"),globo:require("./globo.png"),"google-news-ar":require("./google-news-ar.png"),"google-news-au":require("./google-news-au.png"),"google-news-br":require("./google-news-br.png"),"google-news-ca":require("./google-news-ca.png"),"google-news-fr":require("./google-news-fr.png"),"fox-sports":require("./fox-sports.png"),"google-news-it":require("./google-news-it.png"),"google-news-sa":require("./google-news-sa.png"),"google-news-ru":require("./google-news-ru.png"),"google-news-uk":require("./google-news-uk.png"),"google-news-in":require("./google-news-in.png"),"goteborgs-posten":require("./goteborgs-posten.png"),"google-news":require("./google-news.png"),gruenderszene:require("./gruenderszene.png"),"hacker-news":require("./hacker-news.png"),handelsblatt:require("./handelsblatt.png"),ign:require("./ign.png"),"il-sole-24-ore":require("./il-sole-24-ore.png"),"la-gaceta":require("./la-gaceta.png"),infobae:require("./infobae.png"),"info-money":require("./info-money.png"),independent:require("./independent.png"),"la-nacion":require("./la-nacion.png"),"la-repubblica":require("./la-repubblica.png"),"le-monde":require("./le-monde.png"),lenta:require("./lenta.png"),lequipe:require("./lequipe.png"),"les-echos":require("./les-echos.png"),liberation:require("./liberation.png"),marca:require("./marca.png"),mashable:require("./mashable.png"),metro:require("./metro.png"),"medical-news-today":require("./medical-news-today.png"),mirror:require("./mirror.png"),msnbc:require("./msnbc.png"),"mtv-news":require("./mtv-news.png"),"national-review":require("./national-review.png"),"national-geographic":require("./national-geographic.png"),"nbc-news":require("./nbc-news.png"),"new-york-magazine":require("./new-york-magazine.png"),"mtv-news-uk":require("./mtv-news-uk.png"),news24:require("./news24.png"),"news-com-au":require("./news-com-au.png"),newsweek:require("./newsweek.png"),"next-big-future":require("./next-big-future.png"),"nhl-news":require("./nhl-news.png"),nrk:require("./nrk.png"),"new-scientist":require("./new-scientist.png"),polygon:require("./polygon.png"),politico:require("./politico.png"),rbc:require("./rbc.png"),recode:require("./recode.png"),"reddit-r-all":require("./reddit-r-all.png"),reuters:require("./reuters.png"),rt:require("./rt.png"),"rtl-nieuws":require("./rtl-nieuws.png"),rte:require("./rte.png"),sabq:require("./sabq.png"),"sevenska-dagbladet":require("./sevenska-dagbladet.png"),"spiegel-online":require("./spiegel-online.png"),talksport:require("./talksport.png"),techcrunch:require("./techcrunch.png"),"techcrunch-cn":require("./techcrunch-cn.png"),techradar:require("./techradar.png"),"the-globe-and-mail":require("./the-globe-and-mail.png"),"the-american-conservative":require("./the-american-conservative.png"),"the-guardian-uk":require("./the-guardian-uk.png"),"the-hill":require("./the-hill.png"),"the-economist":require("./the-economist.png"),"the-irish-times":require("./the-irish-times.png"),"the-huffington-post":require("./the-huffington-post.png"),"the-hindu":require("./the-hindu.png"),"the-lad-bible":require("./the-lad-bible.png"),"the-new-york-times":require("./the-new-york-times.png"),"nfl-news":require("./nfl-news.png"),t3n:require("./t3n.png"),"the-guardian-au":require("./the-guardian-au.png"),"the-next-web":require("./the-next-web.png"),"the-jerusalem-post":require("./the-jerusalem-post.png"),"the-sport-bible":require("./the-sport-bible.png"),"the-telegraph":require("./the-telegraph.png"),"the-times-of-india":require("./the-times-of-india.png"),"the-verge":require("./the-verge.png"),"the-wall-street-journal":require("./the-wall-street-journal.png"),"the-washington-times":require("./the-washington-times.png"),"the-washington-post":require("./the-washington-post.png"),time:require("./time.png"),"usa-today":require("./usa-today.png"),"vice-news":require("./vice-news.png"),"wired-de":require("./wired-de.png"),wired:require("./wired.png"),"wirtschafts-woche":require("./wirtschafts-woche.png"),"xinhua-net":require("./xinhua-net.png"),ynet:require("./ynet.png")};
+},{"./aftenposten.png":"9Zhb","./abc-news.png":"lvJ3","./abc-news-au.png":"WbKz","./ansa.png":"qX6f","./al-jazeera-english.png":"zWTF","./argaam.png":"khLQ","./ars-technica.png":"VTvP","./ary-news.png":"koTL","./associated-press.png":"wGaF","./australian-financial-review.png":"71j2","./axios.png":"ruLr","./bbc-news.png":"2ja5","./bbc-sport.png":"EA/r","./bild.png":"F9+S","./blasting-news-br.png":"qsyj","./bloomberg.png":"uF/z","./bleacher-report.png":"arsj","./breitbart-news.png":"EPfi","./business-insider-uk.png":"q7qF","./business-insider.png":"p1Kn","./cbc-news.png":"5ATc","./cbs-news.png":"4bCj","./buzzfeed.png":"u8Tk","./cnbc.png":"pgAf","./cnn-es.png":"3Kll","./cnn.png":"b6M/","./crypto-coins-news.png":"ODQ2","./daily-mail.png":"EYpz","./der-tagesspiegel.png":"nZhH","./die-zeit.png":"VfNn","./el-mundo.png":"ro8Z","./engadget.png":"UTHT","./entertainment-weekly.png":"/Ri3","./espn-cric-info.png":"7Pq0","./espn.png":"3yo4","./financial-post.png":"/wxT","./financial-times.png":"3Rb6","./focus.png":"UYAS","./football-italia.png":"bpSh","./fortune.png":"bDUN","./four-four-two.png":"xtc0","./fox-news.png":"zhz1","./globo.png":"N/BL","./google-news-ar.png":"xvf8","./google-news-au.png":"4jU9","./google-news-br.png":"PMZZ","./google-news-ca.png":"McFM","./google-news-fr.png":"gMfN","./fox-sports.png":"ifM6","./google-news-it.png":"NniF","./google-news-sa.png":"JSNT","./google-news-ru.png":"/4Xk","./google-news-uk.png":"SvzS","./google-news-in.png":"TbaG","./goteborgs-posten.png":"68Av","./google-news.png":"KIAR","./gruenderszene.png":"7nph","./hacker-news.png":"qyOM","./handelsblatt.png":"FGt7","./ign.png":"oIf4","./il-sole-24-ore.png":"UC7I","./la-gaceta.png":"g6+1","./infobae.png":"dqZ9","./info-money.png":"2xV8","./independent.png":"qxBP","./la-nacion.png":"Qg6L","./la-repubblica.png":"MV5s","./le-monde.png":"Y+Da","./lenta.png":"Yazm","./lequipe.png":"Vj7e","./les-echos.png":"rMH1","./liberation.png":"bCzD","./marca.png":"3+p1","./mashable.png":"ziMf","./metro.png":"aH1X","./medical-news-today.png":"+d0z","./mirror.png":"ko+V","./msnbc.png":"BYAh","./mtv-news.png":"1Ev3","./national-review.png":"90oj","./national-geographic.png":"RPTT","./nbc-news.png":"+6I9","./new-york-magazine.png":"PXo0","./mtv-news-uk.png":"4ROD","./news24.png":"kkT/","./news-com-au.png":"eD9r","./newsweek.png":"1mjx","./next-big-future.png":"9yuI","./nhl-news.png":"+zEX","./nrk.png":"h0it","./new-scientist.png":"Ad9t","./polygon.png":"SIy/","./politico.png":"w4S+","./rbc.png":"8Otu","./recode.png":"DF/Q","./reddit-r-all.png":"yajM","./reuters.png":"peLh","./rt.png":"l3mp","./rtl-nieuws.png":"v0FX","./rte.png":"E5Nh","./sabq.png":"B9Pf","./sevenska-dagbladet.png":"IU8c","./spiegel-online.png":"hYXb","./talksport.png":"zEcd","./techcrunch.png":"kwMW","./techcrunch-cn.png":"8lun","./techradar.png":"1Igl","./the-globe-and-mail.png":"dCyH","./the-american-conservative.png":"otgC","./the-guardian-uk.png":"TsB+","./the-hill.png":"Z2c7","./the-economist.png":"t1mB","./the-irish-times.png":"djpZ","./the-huffington-post.png":"GKZ0","./the-hindu.png":"ilVi","./the-lad-bible.png":"tQW1","./the-new-york-times.png":"iz5e","./nfl-news.png":"jcRq","./t3n.png":"5+YH","./the-guardian-au.png":"0NRu","./the-next-web.png":"rYNI","./the-jerusalem-post.png":"fLRh","./the-sport-bible.png":"o8tw","./the-telegraph.png":"bF9Q","./the-times-of-india.png":"753U","./the-verge.png":"i02i","./the-wall-street-journal.png":"RXce","./the-washington-times.png":"J+fh","./the-washington-post.png":"6p8O","./time.png":"qQqx","./usa-today.png":"bgyp","./vice-news.png":"0DJe","./wired-de.png":"P+zZ","./wired.png":"ksNb","./wirtschafts-woche.png":"JOWY","./xinhua-net.png":"BrlD","./ynet.png":"PZoc"}],"uh/L":[function(require,module,exports) {
+module.exports={source_button:"_source_button_4cac2",selected:"_selected_4cac2",source_name:"_source_name_4cac2"};
 },{}],"jveE":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e=r(require("react")),t=r(require("./Source.scss"));function r(e){return e&&e.__esModule?e:{default:e}}var a=t.default.source,u=t.default.source_button,c=t.default.selected,n=t.default.source_icon,o=t.default.source_name,s=function(t){var r=t.name,s=t.icon,l=(t.description,t.id),d=t.currentSource,i=t.setCurrentSource,f={backgroundImage:'url("'.concat(s,'")'),backgroundSize:"100%",height:36,width:36,backgroundPosition:"center center",backgroundRepeat:"no repeat",borderRadius:6};return e.default.createElement("li",{className:a},e.default.createElement("button",{className:l===d?"".concat(u," ").concat(c):u,onClick:function(){return i(l)}},e.default.createElement("div",{style:f,className:n}),e.default.createElement("span",{className:o},r)))},l=s;exports.default=l;
 },{"react":"1n8/","./Source.scss":"uh/L"}],"BqIU":[function(require,module,exports) {
-module.exports={sidebar:"_sidebar_a3d3e",hide:"_hide_a3d3e"};
+module.exports={sidebar:"_sidebar_c418b",hide:"_hide_c418b"};
 },{}],"06iS":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e=a(require("react")),r=o(require("axios")),t=o(require("../img/icons/*.png")),n=o(require("./Source")),u=o(require("./Sidebar.scss"));function o(e){return e&&e.__esModule?e:{default:e}}function a(e){if(e&&e.__esModule)return e;var r={};if(null!=e)for(var t in e)if(Object.prototype.hasOwnProperty.call(e,t)){var n=Object.defineProperty&&Object.getOwnPropertyDescriptor?Object.getOwnPropertyDescriptor(e,t):{};n.get||n.set?Object.defineProperty(r,t,n):r[t]=e[t]}return r.default=e,r}function c(e,r){return s(e)||l(e,r)||i()}function i(){throw new TypeError("Invalid attempt to destructure non-iterable instance")}function l(e,r){var t=[],n=!0,u=!1,o=void 0;try{for(var a,c=e[Symbol.iterator]();!(n=(a=c.next()).done)&&(t.push(a.value),!r||t.length!==r);n=!0);}catch(i){u=!0,o=i}finally{try{n||null==c.return||c.return()}finally{if(u)throw o}}return t}function s(e){if(Array.isArray(e))return e}var f=function(o){var a=o.apiKey,i=o.currentSource,l=o.setCurrentSource,s=o.sidebarIsHidden,f=c((0,e.useState)([]),2),d=f[0],p=f[1];(0,e.useEffect)(function(){(0,r.default)("https://newsapi.org/v2/sources?language=en&apiKey=".concat(a)).then(function(e){return e.data}).catch(function(e){console.log("Error fetching sources: ",e)}).then(function(e){var r=e.sources;p(r),console.log(r)})},[a]);var y=u.default.sidebar,v=u.default.hide;return e.default.createElement("aside",{className:s?"".concat(y," ").concat(v):y},e.default.createElement("ul",null,d.map(function(r){var u=r.id,o=r.name,a=r.description;return e.default.createElement(n.default,{key:u,id:u,name:o,icon:t.default[u],description:a,currentSource:i,setCurrentSource:l})})))},d=f;exports.default=d;
 },{"react":"1n8/","axios":"dZBD","../img/icons/*.png":"1HVf","./Source":"jveE","./Sidebar.scss":"BqIU"}],"uvMO":[function(require,module,exports) {
-module.exports={story:"_story_25cf4",story_published:"_story_published_25cf4",story_description:"_story_description_25cf4"};
+module.exports={story:"_story_08555",story_published:"_story_published_08555",story_description:"_story_description_08555"};
 },{}],"qjya":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e=a(require("react")),t=a(require("./Story.scss"));function a(e){return e&&e.__esModule?e:{default:e}}var l=function(a){var l=a.title,r=a.description,u=a.urlToImage,n=a.newsOutlet,s=a.publishedAt,d=a.url,o=Math.round((new Date-new Date(s))/6e4),c=o<60?o+" mins ago":Math.round(o/60)+" hours ago",f=t.default.story,i=t.default.story_words,m=t.default.story_published,p=t.default.story_description;return e.default.createElement("a",{href:d,target:"_blank",rel:"noopener noreferrer"},e.default.createElement("div",{className:f},e.default.createElement("div",{className:i},e.default.createElement("h2",null,l),e.default.createElement("div",{className:m},e.default.createElement("span",null,n," • "),e.default.createElement("span",null,c)),e.default.createElement("p",{className:p},r)),e.default.createElement("div",null,e.default.createElement("img",{src:u,alt:"story"}))))},r=l;exports.default=r;
 },{"react":"1n8/","./Story.scss":"uvMO"}],"XZw8":[function(require,module,exports) {
-module.exports={main:"_main_b956b",hide:"_hide_b956b",main_headline:"_main_headline_b956b",main_stories:"_main_stories_b956b"};
+module.exports={main:"_main_259ca",hide:"_hide_259ca",main_headline:"_main_headline_259ca",main_stories:"_main_stories_259ca"};
 },{}],"YxD0":[function(require,module,exports) {
-"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e=u(require("react")),t=a(require("axios")),r=a(require("./Story")),n=a(require("./Main.scss"));function a(e){return e&&e.__esModule?e:{default:e}}function u(e){if(e&&e.__esModule)return e;var t={};if(null!=e)for(var r in e)if(Object.prototype.hasOwnProperty.call(e,r)){var n=Object.defineProperty&&Object.getOwnPropertyDescriptor?Object.getOwnPropertyDescriptor(e,r):{};n.get||n.set?Object.defineProperty(t,r,n):t[r]=e[r]}return t.default=e,t}function o(e,t){return l(e)||c(e,t)||i()}function i(){throw new TypeError("Invalid attempt to destructure non-iterable instance")}function c(e,t){var r=[],n=!0,a=!1,u=void 0;try{for(var o,i=e[Symbol.iterator]();!(n=(o=i.next()).done)&&(r.push(o.value),!t||r.length!==t);n=!0);}catch(c){a=!0,u=c}finally{try{n||null==i.return||i.return()}finally{if(a)throw u}}return r}function l(e){if(Array.isArray(e))return e}var s=function(a){var u=a.apiKey,i=a.currentSource,c=a.sidebarIsHidden,l=o((0,e.useState)([]),2),s=l[0],f=l[1],d=o((0,e.useState)(""),2),p=d[0],v=d[1];(0,e.useEffect)(function(){(0,t.default)("https://newsapi.org/v2/top-headlines?sources=".concat(i,"&apiKey=").concat(u)).then(function(e){var t=e.data;return console.log(t),t}).catch(function(e){console.log("Error fetching sources: ",e)}).then(function(e){var t=e.articles;f(t),v(t[0].source.name)})},[i,u,v]);var y=n.default.main,m=n.default.hide,h=n.default.main_headline,b=n.default.main_stories;return e.default.createElement("main",{className:c?"".concat(y," ").concat(m):y},e.default.createElement("h1",{className:h},p),e.default.createElement("div",{className:b},s.map(function(t){var n=t.title,a=t.description,u=t.urlToImage,o=t.publishedAt,i=t.url;return e.default.createElement(r.default,{title:n,description:a,urlToImage:u,newsOutlet:t.source.name,publishedAt:o,url:i,key:i})})))},f=s;exports.default=f;
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e=u(require("react")),t=a(require("axios")),r=a(require("./Story")),n=a(require("./Main.scss"));function a(e){return e&&e.__esModule?e:{default:e}}function u(e){if(e&&e.__esModule)return e;var t={};if(null!=e)for(var r in e)if(Object.prototype.hasOwnProperty.call(e,r)){var n=Object.defineProperty&&Object.getOwnPropertyDescriptor?Object.getOwnPropertyDescriptor(e,r):{};n.get||n.set?Object.defineProperty(t,r,n):t[r]=e[r]}return t.default=e,t}function o(e,t){return l(e)||c(e,t)||i()}function i(){throw new TypeError("Invalid attempt to destructure non-iterable instance")}function c(e,t){var r=[],n=!0,a=!1,u=void 0;try{for(var o,i=e[Symbol.iterator]();!(n=(o=i.next()).done)&&(r.push(o.value),!t||r.length!==t);n=!0);}catch(c){a=!0,u=c}finally{try{n||null==i.return||i.return()}finally{if(a)throw u}}return r}function l(e){if(Array.isArray(e))return e}var s=function(a){var u=a.apiKey,i=a.currentSource,c=a.sidebarIsHidden,l=o((0,e.useState)([]),2),s=l[0],f=l[1],d=o((0,e.useState)(""),2),p=d[0],m=d[1];(0,e.useEffect)(function(){(0,t.default)("https://newsapi.org/v2/top-headlines?sources=".concat(i,"&apiKey=").concat(u)).then(function(e){var t=e.data;return console.log(t),t}).catch(function(e){console.log("Error fetching sources: ",e)}).then(function(e){var t=e.articles;f(t),m(t[0].source.name)})},[i,u,m]);var y=n.default.main,v=n.default.hide,h=n.default.main_headline,b=n.default.main_stories,g=new DOMParser;return e.default.createElement("main",{className:c?"".concat(y," ").concat(v):y},e.default.createElement("h1",{className:h},p),e.default.createElement("div",{className:b},s.map(function(t){var n=t.title,a=t.description,u=t.urlToImage,o=t.publishedAt,i=t.url,c=g.parseFromString(n,"text/html").body.innerText;return e.default.createElement(r.default,{title:c,description:a,urlToImage:u,newsOutlet:t.source.name,publishedAt:o,url:i,key:i})})))},f=s;exports.default=f;
 },{"react":"1n8/","axios":"dZBD","./Story":"qjya","./Main.scss":"XZw8"}],"le+d":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;var e=u(require("react")),r=a(require("./Header")),t=a(require("./Sidebar")),n=a(require("./Main"));function a(e){return e&&e.__esModule?e:{default:e}}function u(e){if(e&&e.__esModule)return e;var r={};if(null!=e)for(var t in e)if(Object.prototype.hasOwnProperty.call(e,t)){var n=Object.defineProperty&&Object.getOwnPropertyDescriptor?Object.getOwnPropertyDescriptor(e,t):{};n.get||n.set?Object.defineProperty(r,t,n):r[t]=e[t]}return r.default=e,r}function i(e,r){return l(e)||d(e,r)||o()}function o(){throw new TypeError("Invalid attempt to destructure non-iterable instance")}function d(e,r){var t=[],n=!0,a=!1,u=void 0;try{for(var i,o=e[Symbol.iterator]();!(n=(i=o.next()).done)&&(t.push(i.value),!r||t.length!==r);n=!0);}catch(d){a=!0,u=d}finally{try{n||null==o.return||o.return()}finally{if(a)throw u}}return t}function l(e){if(Array.isArray(e))return e}var c=function(){var a="2e1f969d4e8f4ca79a1c75000f96d706",u=i((0,e.useState)("the-new-york-times"),2),o=u[0],d=u[1],l=i((0,e.useState)(!1),2),c=l[0],f=l[1];return(0,e.useEffect)(function(){console.log(c)},[c]),e.default.createElement("div",{id:"app"},e.default.createElement(r.default,{sidebarIsHidden:c,hideShowSidebar:f}),e.default.createElement("div",{className:"wrapper"},e.default.createElement(t.default,{apiKey:a,currentSource:o,setCurrentSource:d,sidebarIsHidden:c}),e.default.createElement(n.default,{apiKey:a,currentSource:o,sidebarIsHidden:c})))},f=c;exports.default=f;
 },{"react":"1n8/","./Header":"RzfG","./Sidebar":"06iS","./Main":"YxD0"}],"Focm":[function(require,module,exports) {
 "use strict";var e=u(require("react")),r=require("react-dom");require("normalize.css"),require("./index.scss");var t=u(require("./components/App"));function u(e){return e&&e.__esModule?e:{default:e}}(0,r.render)(e.default.createElement(t.default,null),document.getElementById("root"));
 },{"react":"1n8/","react-dom":"NKHc","normalize.css":"DOAq","./index.scss":"eHzx","./components/App":"le+d"}]},{},["Focm"], null)
-//# sourceMappingURL=/news-api-react/src.c69785d8.js.map
+//# sourceMappingURL=/news-api-react/src.ed566ef2.js.map
