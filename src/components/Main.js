@@ -29,6 +29,7 @@ const Main = ({ apiKey, currentSource, sidebarIsHidden }) => {
   }, [currentSource, apiKey, setHeadline]);
 
   const { main, hide, main_headline, main_stories } = styles;
+  const parser = new DOMParser();
 
   return (
     <main className={sidebarIsHidden ? `${main} ${hide}` : main}>
@@ -36,9 +37,11 @@ const Main = ({ apiKey, currentSource, sidebarIsHidden }) => {
       <div className={main_stories}>
         {articles.map(article => {
           const { title, description, urlToImage, publishedAt, url } = article;
+          const parsedTitle = parser.parseFromString(title, 'text/html').body
+            .innerText;
           return (
             <Story
-              title={title}
+              title={parsedTitle}
               description={description}
               urlToImage={urlToImage}
               newsOutlet={article.source.name}
